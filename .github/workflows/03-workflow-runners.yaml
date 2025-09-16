@@ -20,4 +20,4 @@ jobs:
         shell: bash
         run: |
           echo "This job is running on a macOS runner."
-          echo "({{ $RUNNER_OS }})"
+          echo "$RUNNER_OS"
